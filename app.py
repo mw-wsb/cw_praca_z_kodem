@@ -1,3 +1,4 @@
+"""This module contains the Flask app for the example project."""
 from flask import Flask
 app = Flask(__name__)
 
