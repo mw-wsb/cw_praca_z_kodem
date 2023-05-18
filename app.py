@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	"""Return a greeting message."""
+    """Return a greeting message."""
     return '<h1>Hello WSB! Greetings from Flask</h1>'
 
 
