@@ -1,3 +1,5 @@
+name: Build
+on: [push]
 jobs:
   show-python-version:
     name: Show Python version
